@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, .hero-container {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+
+footer {
+    background-color: #333;
+}
+
+.card {
+    margin: 15px;
+}
+
+.navbar-brand img {
+    height: 30px;
+}
