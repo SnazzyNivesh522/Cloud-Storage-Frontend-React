@@ -33,7 +33,7 @@ const Header = ({ userEmail, userImage, refreshProfileImage }) => {
             >
               <img
                 className="bi me-2"
-                src="/cloud-storage-logo.png"
+                src="/Cloud-Storage-Frontend-React/cloud-storage-logo.png"
                 alt="Logo"
                 style={{ height: '32px', width: '40px' }}
               />

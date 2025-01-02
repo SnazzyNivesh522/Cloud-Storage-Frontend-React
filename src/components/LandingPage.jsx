@@ -7,7 +7,7 @@ export default function LandingPage() {
         <div>
             <nav className="navbar navbar-light bg-light px-4">
                 <a className="navbar-brand d-flex align-items-center" href="#">
-                    <img src="/cloud-storage-logo.png" alt="Logo" />
+                    <img src="/Cloud-Storage-Frontend-React/cloud-storage-logo.png" alt="Logo" />
                     <span className="ms-2">Free Storage Drive</span>
                 </a>
                 <button className="btn btn-outline-dark" onClick={()=>navigate('/login')}>LOGIN</button>
@@ -18,7 +18,7 @@ export default function LandingPage() {
                 <h1 className="display-4">Store and share files online</h1>
                 <div className="col-lg-6 mx-auto">
                     <img
-                        src="/features.gif"
+                        src="/Cloud-Storage-Frontend-React/features.gif"
                         alt="Cloud Storage Features"
                         className="img-fluid my-4"
                         style={{ maxHeight: '300px' }}

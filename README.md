@@ -52,12 +52,8 @@ A React-based frontend for a cloud storage application, similar to Google Drive.
 
 | Landing Page | Dashboard |
 | :---: | :---: |
-| ![Landing Page Screenshot](https://user-images.githubusercontent.com/XXXXXXX/landing-page.png) | ![Dashboard Screenshot](https://user-images.githubusercontent.com/XXXXXXX/dashboard.png) |
-
-*(Replace with actual images if desired.)*
-
+| ![Landing Page Screenshot](app_screenshots/landing_page_mobile.png) | ![Dashboard Screenshot](app_screenshots/dashboard_mobile.png) |
 <br />
-
 ## Directory Structure
 
 ```

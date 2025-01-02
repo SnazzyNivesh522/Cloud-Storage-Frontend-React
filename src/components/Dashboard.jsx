@@ -12,7 +12,7 @@ import CreateFolderModal from './CreateFolderModal';
 
 export default function Dashboard() {
   const [userEmail, setUserEmail] = useState('');
-  const [userImage, setUserImage] = useState('/default-profile.png');
+  const [userImage, setUserImage] = useState('/Cloud-Storage-Frontend-React/default-profile.png');
   const [profileLoading, setProfileLoading] = useState(true);
 
   const { handleLogout } = useContext(AuthContext);
@@ -37,7 +37,7 @@ export default function Dashboard() {
       } catch (error) {
         console.error('Error fetching user profile:', error);
         alert('Failed to load user profile.');
-        setUserImage('/default-profile.png');
+        setUserImage('/Cloud-Storage-Frontend-React/default-profile.png');
 
       }
       finally {
